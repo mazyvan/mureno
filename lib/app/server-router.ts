@@ -56,7 +56,7 @@ export default class ServerRouter {
 
       if (args.length == 1) {
         this.statusCode = 200
-        this.end((args[0] != null) ? JSON.stringify(args[1]) : undefined)
+        this.end((args[0] != null) ? JSON.stringify(args[0]) : undefined)
         return
       }
 

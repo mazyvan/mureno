@@ -1,11 +1,10 @@
 {
   "name": "mureno-framework",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A lightweight very opinionated api framework for Node.js",
-  "main": "app.js",
+  "main": "./dist",
   "scripts": {
     "build": "tsc",
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
