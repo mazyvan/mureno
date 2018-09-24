@@ -75,6 +75,8 @@ var ServerRouter = /** @class */ (function () {
                     if (!_this.middlewareList[index + 1])
                         route(req, res);
                 }
+                if (_this.middlewareList.length == 0)
+                    route(req, res);
                 return;
             });
         };
