@@ -1,0 +1,29 @@
+{
+  "name": "mureno-framework",
+  "version": "0.0.0",
+  "description": "A lightweight very opinionated api framework for Node.js",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mureno",
+    "mureno-framework",
+    "node.js",
+    "api"
+  ],
+  "author": "Iván Sánchez <mazyvan@hotmail.com>",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "mazyvan",
+      "email": "mazyvan@hotmail.com"
+    }
+  ],
+  "devDependencies": {
+    "@types/node": "^10.10.3"
+  },
+  "dependencies": {}
+}
