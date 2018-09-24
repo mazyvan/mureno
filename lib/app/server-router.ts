@@ -91,6 +91,7 @@ export default class ServerRouter {
         currentMiddleWare(req, res, next)
         if (!this.middlewareList[index + 1]) route(req, res)
       }
+      if (this.middlewareList.length == 0) route(req, res)
       return
     })
   }
